@@ -91,7 +91,8 @@ void do_remove_entry(Phone_Directory& the_directory) // Exercise 1.8: please com
 	cout << "Enter name: ";
 	getline(cin, name);
 	// Complete the rest of this function 
-	
+	string num = the_directory.remove_entry(name);
+	//cout << "Number \"" << num << "\" removed.\n";
 }
 
 void do_save(Phone_Directory& the_directory)

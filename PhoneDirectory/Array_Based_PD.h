@@ -53,11 +53,9 @@ public:
 	void save();
 
 private:
+	// Andrew Peacock
 	class Directory_Entry
 	{
-	
-		string name;
-		string number;
 	public:
 		Directory_Entry() {} // Default no-argument constructor 
 		Directory_Entry(std::string the_name, std::string the_number) {
@@ -74,9 +72,9 @@ private:
 			number = new_number;
 			// method not implemented yet
 		}
-	//private:
-	//	string name;
-	//	string number;
+	private:
+		std::string name;
+		std::string number;
 	};
 
 
